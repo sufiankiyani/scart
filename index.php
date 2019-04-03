@@ -1,5 +1,5 @@
 <?php
-include 'header.php'
+include 'header.php';
 ?>
     <div id="all">
       <div id="content">
@@ -71,12 +71,12 @@ include 'header.php'
                 <div class="product">
                   <div class="flip-container">
                     <div class="flipper">
-                      <div class="front"><a href="detail.html"><img src="img/product1.jpg" alt="" class="img-fluid"></a></div>
-                      <div class="back"><a href="detail.html"><img src="img/product1_2.jpg" alt="" class="img-fluid"></a></div>
+                      <div class="front"><a href="detail.php"><img src="img/product1.jpg" alt="" class="img-fluid"></a></div>
+                      <div class="back"><a href="detail.php"><img src="img/product1_2.jpg" alt="" class="img-fluid"></a></div>
                     </div>
-                  </div><a href="detail.html" class="invisible"><img src="img/product1.jpg" alt="" class="img-fluid"></a>
+                  </div><a href="detail.php" class="invisible"><img src="img/product1.jpg" alt="" class="img-fluid"></a>
                   <div class="text">
-                    <h3><a href="detail.html">Fur coat with very but very very long name</a></h3>
+                    <h3><a href="detail.php">Fur coat with very but very very long name</a></h3>
                     <p class="price"> 
                       <del></del>$143.00
                     </p>
@@ -104,12 +104,12 @@ include 'header.php'
                 <div class="product">
                   <div class="flip-container">
                     <div class="flipper">
-                      <div class="front"><a href="detail.html"><img src="img/product2.jpg" alt="" class="img-fluid"></a></div>
-                      <div class="back"><a href="detail.html"><img src="img/product2_2.jpg" alt="" class="img-fluid"></a></div>
+                      <div class="front"><a href="detail.php"><img src="img/product2.jpg" alt="" class="img-fluid"></a></div>
+                      <div class="back"><a href="detail.php"><img src="img/product2_2.jpg" alt="" class="img-fluid"></a></div>
                     </div>
-                  </div><a href="detail.html" class="invisible"><img src="img/product2.jpg" alt="" class="img-fluid"></a>
+                  </div><a href="detail.php" class="invisible"><img src="img/product2.jpg" alt="" class="img-fluid"></a>
                   <div class="text">
-                    <h3><a href="detail.html">White Blouse Armani</a></h3>
+                    <h3><a href="detail.php">White Blouse Armani</a></h3>
                     <p class="price"> 
                       <del>$280</del>$143.00
                     </p>
@@ -137,12 +137,12 @@ include 'header.php'
                 <div class="product">
                   <div class="flip-container">
                     <div class="flipper">
-                      <div class="front"><a href="detail.html"><img src="img/product3.jpg" alt="" class="img-fluid"></a></div>
-                      <div class="back"><a href="detail.html"><img src="img/product3_2.jpg" alt="" class="img-fluid"></a></div>
+                      <div class="front"><a href="detail.php"><img src="img/product3.jpg" alt="" class="img-fluid"></a></div>
+                      <div class="back"><a href="detail.php"><img src="img/product3_2.jpg" alt="" class="img-fluid"></a></div>
                     </div>
-                  </div><a href="detail.html" class="invisible"><img src="img/product3.jpg" alt="" class="img-fluid"></a>
+                  </div><a href="detail.php" class="invisible"><img src="img/product3.jpg" alt="" class="img-fluid"></a>
                   <div class="text">
-                    <h3><a href="detail.html">Black Blouse Versace</a></h3>
+                    <h3><a href="detail.php">Black Blouse Versace</a></h3>
                     <p class="price"> 
                       <del></del>$143.00
                     </p>
@@ -155,12 +155,12 @@ include 'header.php'
                 <div class="product">
                   <div class="flip-container">
                     <div class="flipper">
-                      <div class="front"><a href="detail.html"><img src="img/product3.jpg" alt="" class="img-fluid"></a></div>
-                      <div class="back"><a href="detail.html"><img src="img/product3_2.jpg" alt="" class="img-fluid"></a></div>
+                      <div class="front"><a href="detail.php"><img src="img/product3.jpg" alt="" class="img-fluid"></a></div>
+                      <div class="back"><a href="detail.php"><img src="img/product3_2.jpg" alt="" class="img-fluid"></a></div>
                     </div>
-                  </div><a href="detail.html" class="invisible"><img src="img/product3.jpg" alt="" class="img-fluid"></a>
+                  </div><a href="detail.php" class="invisible"><img src="img/product3.jpg" alt="" class="img-fluid"></a>
                   <div class="text">
-                    <h3><a href="detail.html">Black Blouse Versace</a></h3>
+                    <h3><a href="detail.php">Black Blouse Versace</a></h3>
                     <p class="price"> 
                       <del></del>$143.00
                     </p>
@@ -173,12 +173,12 @@ include 'header.php'
                 <div class="product">
                   <div class="flip-container">
                     <div class="flipper">
-                      <div class="front"><a href="detail.html"><img src="img/product2.jpg" alt="" class="img-fluid"></a></div>
-                      <div class="back"><a href="detail.html"><img src="img/product2_2.jpg" alt="" class="img-fluid"></a></div>
+                      <div class="front"><a href="detail.php"><img src="img/product2.jpg" alt="" class="img-fluid"></a></div>
+                      <div class="back"><a href="detail.php"><img src="img/product2_2.jpg" alt="" class="img-fluid"></a></div>
                     </div>
-                  </div><a href="detail.html" class="invisible"><img src="img/product2.jpg" alt="" class="img-fluid"></a>
+                  </div><a href="detail.php" class="invisible"><img src="img/product2.jpg" alt="" class="img-fluid"></a>
                   <div class="text">
-                    <h3><a href="detail.html">White Blouse Versace</a></h3>
+                    <h3><a href="detail.php">White Blouse Versace</a></h3>
                     <p class="price"> 
                       <del></del>$143.00
                     </p>
@@ -196,12 +196,12 @@ include 'header.php'
                 <div class="product">
                   <div class="flip-container">
                     <div class="flipper">
-                      <div class="front"><a href="detail.html"><img src="img/product1.jpg" alt="" class="img-fluid"></a></div>
-                      <div class="back"><a href="detail.html"><img src="img/product1_2.jpg" alt="" class="img-fluid"></a></div>
+                      <div class="front"><a href="detail.php"><img src="img/product1.jpg" alt="" class="img-fluid"></a></div>
+                      <div class="back"><a href="detail.php"><img src="img/product1_2.jpg" alt="" class="img-fluid"></a></div>
                     </div>
-                  </div><a href="detail.html" class="invisible"><img src="img/product1.jpg" alt="" class="img-fluid"></a>
+                  </div><a href="detail.php" class="invisible"><img src="img/product1.jpg" alt="" class="img-fluid"></a>
                   <div class="text">
-                    <h3><a href="detail.html">Fur coat</a></h3>
+                    <h3><a href="detail.php">Fur coat</a></h3>
                     <p class="price"> 
                       <del></del>$143.00
                     </p>
@@ -219,12 +219,12 @@ include 'header.php'
                 <div class="product">
                   <div class="flip-container">
                     <div class="flipper">
-                      <div class="front"><a href="detail.html"><img src="img/product2.jpg" alt="" class="img-fluid"></a></div>
-                      <div class="back"><a href="detail.html"><img src="img/product2_2.jpg" alt="" class="img-fluid"></a></div>
+                      <div class="front"><a href="detail.php"><img src="img/product2.jpg" alt="" class="img-fluid"></a></div>
+                      <div class="back"><a href="detail.php"><img src="img/product2_2.jpg" alt="" class="img-fluid"></a></div>
                     </div>
-                  </div><a href="detail.html" class="invisible"><img src="img/product2.jpg" alt="" class="img-fluid"></a>
+                  </div><a href="detail.php" class="invisible"><img src="img/product2.jpg" alt="" class="img-fluid"></a>
                   <div class="text">
-                    <h3><a href="detail.html">White Blouse Armani</a></h3>
+                    <h3><a href="detail.php">White Blouse Armani</a></h3>
                     <p class="price"> 
                       <del>$280</del>$143.00
                     </p>
@@ -252,12 +252,12 @@ include 'header.php'
                 <div class="product">
                   <div class="flip-container">
                     <div class="flipper">
-                      <div class="front"><a href="detail.html"><img src="img/product3.jpg" alt="" class="img-fluid"></a></div>
-                      <div class="back"><a href="detail.html"><img src="img/product3_2.jpg" alt="" class="img-fluid"></a></div>
+                      <div class="front"><a href="detail.php"><img src="img/product3.jpg" alt="" class="img-fluid"></a></div>
+                      <div class="back"><a href="detail.php"><img src="img/product3_2.jpg" alt="" class="img-fluid"></a></div>
                     </div>
-                  </div><a href="detail.html" class="invisible"><img src="img/product3.jpg" alt="" class="img-fluid"></a>
+                  </div><a href="detail.php" class="invisible"><img src="img/product3.jpg" alt="" class="img-fluid"></a>
                   <div class="text">
-                    <h3><a href="detail.html">Black Blouse Versace</a></h3>
+                    <h3><a href="detail.php">Black Blouse Versace</a></h3>
                     <p class="price"> 
                       <del></del>$143.00
                     </p>
@@ -299,7 +299,7 @@ include 'header.php'
           <div class="container">
             <div class="col-md-12">
               <h3 class="text-uppercase">From our blog</h3>
-              <p class="lead mb-0">What's new in the world of fashion? <a href="blog.html">Check our blog!</a></p>
+              <p class="lead mb-0">What's new in the world of fashion? <a href="blog.php">Check our blog!</a></p>
             </div>
           </div>
         </div>
@@ -308,20 +308,20 @@ include 'header.php'
             <div id="blog-homepage" class="row">
               <div class="col-sm-6">
                 <div class="post">
-                  <h4><a href="post.html">Fashion now</a></h4>
+                  <h4><a href="post.php">Fashion now</a></h4>
                   <p class="author-category">By <a href="#">John Slim</a> in <a href="">Fashion and style</a></p>
                   <hr>
                   <p class="intro">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
-                  <p class="read-more"><a href="post.html" class="btn btn-primary">Continue reading</a></p>
+                  <p class="read-more"><a href="post.php" class="btn btn-primary">Continue reading</a></p>
                 </div>
               </div>
               <div class="col-sm-6">
                 <div class="post">
-                  <h4><a href="post.html">Who is who - example blog post</a></h4>
+                  <h4><a href="post.php">Who is who - example blog post</a></h4>
                   <p class="author-category">By <a href="#">John Slim</a> in <a href="">About Minimal</a></p>
                   <hr>
                   <p class="intro">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
-                  <p class="read-more"><a href="post.html" class="btn btn-primary">Continue reading</a></p>
+                  <p class="read-more"><a href="post.php" class="btn btn-primary">Continue reading</a></p>
                 </div>
               </div>
             </div>

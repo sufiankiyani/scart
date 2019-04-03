@@ -1,6 +1,7 @@
 <?php
 include 'header.php'
 ?>
+
     <div id="all">
       <div id="content">
         <div class="container">
@@ -10,11 +11,13 @@ include 'header.php'
               <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
                   <li class="breadcrumb-item"><a href="#">Home</a></li>
-                  <li aria-current="page" class="breadcrumb-item active">Ladies</li>
+                  <li class="breadcrumb-item"><a href="#">Ladies</a></li>
+                  <li class="breadcrumb-item"><a href="#">Tops</a></li>
+                  <li aria-current="page" class="breadcrumb-item active">White Blouse Armani</li>
                 </ol>
               </nav>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3 order-2 order-lg-1">
               <!--
               *** MENUS AND FILTERS ***
               _________________________________________________________
@@ -124,50 +127,70 @@ include 'header.php'
               <!-- *** MENUS AND FILTERS END ***-->
               <div class="banner"><a href="#"><img src="img/banner.jpg" alt="sales 2014" class="img-fluid"></a></div>
             </div>
-            <div class="col-lg-9">
-              <div class="box">
-                <h1>Ladies</h1>
-                <p>In our Ladies department we offer wide selection of the best products we have found and carefully selected worldwide.</p>
-              </div>
-              <div class="box info-bar">
-                <div class="row">
-                  <div class="col-md-12 col-lg-4 products-showing">Showing <strong>12</strong> of <strong>25</strong> products</div>
-                  <div class="col-md-12 col-lg-7 products-number-sort">
-                    <form class="form-inline d-block d-lg-flex justify-content-between flex-column flex-md-row">
-                      <div class="products-number"><strong>Show</strong><a href="#" class="btn btn-sm btn-primary">12</a><a href="#" class="btn btn-outline-secondary btn-sm">24</a><a href="#" class="btn btn-outline-secondary btn-sm">All</a><span>products</span></div>
-                      <div class="products-sort-by mt-2 mt-lg-0"><strong>Sort by</strong>
-                        <select name="sort-by" class="form-control">
-                          <option>Price</option>
-                          <option>Name</option>
-                          <option>Sales first</option>
-                        </select>
-                      </div>
-                    </form>
+            <div class="col-lg-9 order-1 order-lg-2">
+              <div id="productMain" class="row">
+                <div class="col-md-6">
+                  <div data-slider-id="1" class="owl-carousel shop-detail-carousel">
+                    <div class="item"> <img src="img/detailbig1.jpg" alt="" class="img-fluid"></div>
+                    <div class="item"> <img src="img/detailbig2.jpg" alt="" class="img-fluid"></div>
+                    <div class="item"> <img src="img/detailbig3.jpg" alt="" class="img-fluid"></div>
+                  </div>
+                  <div class="ribbon sale">
+                    <div class="theribbon">SALE</div>
+                    <div class="ribbon-background"></div>
+                  </div>
+                  <!-- /.ribbon-->
+                  <div class="ribbon new">
+                    <div class="theribbon">NEW</div>
+                    <div class="ribbon-background"></div>
+                  </div>
+                  <!-- /.ribbon-->
+                </div>
+                <div class="col-md-6">
+                  <div class="box">
+                    <h1 class="text-center">White Blouse Armani</h1>
+                    <p class="goToDescription"><a href="#details" class="scroll-to">Scroll to product details, material &amp; care and sizing</a></p>
+                    <p class="price">$124.00</p>
+                    <p class="text-center buttons"><a href="basket.php" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> Add to cart</a><a href="basket.php" class="btn btn-outline-primary"><i class="fa fa-heart"></i> Add to wishlist</a></p>
+                  </div>
+                  <div data-slider-id="1" class="owl-thumbs">
+                    <button class="owl-thumb-item"><img src="img/detailsquare.jpg" alt="" class="img-fluid"></button>
+                    <button class="owl-thumb-item"><img src="img/detailsquare2.jpg" alt="" class="img-fluid"></button>
+                    <button class="owl-thumb-item"><img src="img/detailsquare3.jpg" alt="" class="img-fluid"></button>
                   </div>
                 </div>
               </div>
-              <div class="row products">
-                <div class="col-lg-4 col-md-6">
-                  <div class="product">
-                    <div class="flip-container">
-                      <div class="flipper">
-                        <div class="front"><a href="detail.php"><img src="img/product1.jpg" alt="" class="img-fluid"></a></div>
-                        <div class="back"><a href="detail.php"><img src="img/product1_2.jpg" alt="" class="img-fluid"></a></div>
-                      </div>
-                    </div><a href="detail.php" class="invisible"><img src="img/product1.jpg" alt="" class="img-fluid"></a>
-                    <div class="text">
-                      <h3><a href="detail.php">Fur coat with very but very very long name</a></h3>
-                      <p class="price"> 
-                        <del></del>$143.00
-                      </p>
-                      <p class="buttons"><a href="detail.php" class="btn btn-outline-secondary">View detail</a><a href="basket.php" class="btn btn-primary"><i class="fa fa-shopping-cart"></i>Add to cart</a></p>
-                    </div>
-                    <!-- /.text-->
-                  </div>
-                  <!-- /.product            -->
+              <div id="details" class="box">
+                <p></p>
+                <h4>Product details</h4>
+                <p>White lace top, woven, has a round neck, short sleeves, has knitted lining attached</p>
+                <h4>Material &amp; care</h4>
+                <ul>
+                  <li>Polyester</li>
+                  <li>Machine wash</li>
+                </ul>
+                <h4>Size &amp; Fit</h4>
+                <ul>
+                  <li>Regular fit</li>
+                  <li>The model (height 5'8" and chest 33") is wearing a size S</li>
+                </ul>
+                <blockquote>
+                  <p><em>Define style this season with Armani's new range of trendy tops, crafted with intricate details. Create a chic statement look by teaming this lace number with skinny jeans and pumps.</em></p>
+                </blockquote>
+                <hr>
+                <div class="social">
+                  <h4>Show it to your friends</h4>
+                  <p><a href="#" class="external facebook"><i class="fa fa-facebook"></i></a><a href="#" class="external gplus"><i class="fa fa-google-plus"></i></a><a href="#" class="external twitter"><i class="fa fa-twitter"></i></a><a href="#" class="email"><i class="fa fa-envelope"></i></a></p>
                 </div>
-                <div class="col-lg-4 col-md-6">
-                  <div class="product">
+              </div>
+              <div class="row same-height-row">
+                <div class="col-md-3 col-sm-6">
+                  <div class="box same-height">
+                    <h3>You may also like these products</h3>
+                  </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                  <div class="product same-height">
                     <div class="flip-container">
                       <div class="flipper">
                         <div class="front"><a href="detail.php"><img src="img/product2.jpg" alt="" class="img-fluid"></a></div>
@@ -175,95 +198,14 @@ include 'header.php'
                       </div>
                     </div><a href="detail.php" class="invisible"><img src="img/product2.jpg" alt="" class="img-fluid"></a>
                     <div class="text">
-                      <h3><a href="detail.php">White Blouse Armani</a></h3>
-                      <p class="price"> 
-                        <del>$280</del>$143.00
-                      </p>
-                      <p class="buttons"><a href="detail.php" class="btn btn-outline-secondary">View detail</a><a href="basket.php" class="btn btn-primary"><i class="fa fa-shopping-cart"></i>Add to cart</a></p>
+                      <h3>Fur coat</h3>
+                      <p class="price">$143</p>
                     </div>
-                    <!-- /.text-->
-                    <div class="ribbon sale">
-                      <div class="theribbon">SALE</div>
-                      <div class="ribbon-background"></div>
-                    </div>
-                    <!-- /.ribbon-->
-                    <div class="ribbon new">
-                      <div class="theribbon">NEW</div>
-                      <div class="ribbon-background"></div>
-                    </div>
-                    <!-- /.ribbon-->
-                    <div class="ribbon gift">
-                      <div class="theribbon">GIFT</div>
-                      <div class="ribbon-background"></div>
-                    </div>
-                    <!-- /.ribbon-->
                   </div>
-                  <!-- /.product            -->
+                  <!-- /.product-->
                 </div>
-                <div class="col-lg-4 col-md-6">
-                  <div class="product">
-                    <div class="flip-container">
-                      <div class="flipper">
-                        <div class="front"><a href="detail.php"><img src="img/product3.jpg" alt="" class="img-fluid"></a></div>
-                        <div class="back"><a href="detail.php"><img src="img/product3_2.jpg" alt="" class="img-fluid"></a></div>
-                      </div>
-                    </div><a href="detail.php" class="invisible"><img src="img/product3.jpg" alt="" class="img-fluid"></a>
-                    <div class="text">
-                      <h3><a href="detail.php">Black Blouse Versace</a></h3>
-                      <p class="price"> 
-                        <del></del>$143.00
-                      </p>
-                      <p class="buttons"><a href="detail.php" class="btn btn-outline-secondary">View detail</a><a href="basket.php" class="btn btn-primary"><i class="fa fa-shopping-cart"></i>Add to cart</a></p>
-                    </div>
-                    <!-- /.text-->
-                  </div>
-                  <!-- /.product            -->
-                </div>
-                <div class="col-lg-4 col-md-6">
-                  <div class="product">
-                    <div class="flip-container">
-                      <div class="flipper">
-                        <div class="front"><a href="detail.php"><img src="img/product3.jpg" alt="" class="img-fluid"></a></div>
-                        <div class="back"><a href="detail.php"><img src="img/product3_2.jpg" alt="" class="img-fluid"></a></div>
-                      </div>
-                    </div><a href="detail.php" class="invisible"><img src="img/product3.jpg" alt="" class="img-fluid"></a>
-                    <div class="text">
-                      <h3><a href="detail.php">Black Blouse Versace</a></h3>
-                      <p class="price"> 
-                        <del></del>$143.00
-                      </p>
-                      <p class="buttons"><a href="detail.php" class="btn btn-outline-secondary">View detail</a><a href="basket.php" class="btn btn-primary"><i class="fa fa-shopping-cart"></i>Add to cart</a></p>
-                    </div>
-                    <!-- /.text-->
-                  </div>
-                  <!-- /.product            -->
-                </div>
-                <div class="col-lg-4 col-md-6">
-                  <div class="product">
-                    <div class="flip-container">
-                      <div class="flipper">
-                        <div class="front"><a href="detail.php"><img src="img/product2.jpg" alt="" class="img-fluid"></a></div>
-                        <div class="back"><a href="detail.php"><img src="img/product2_2.jpg" alt="" class="img-fluid"></a></div>
-                      </div>
-                    </div><a href="detail.php" class="invisible"><img src="img/product2.jpg" alt="" class="img-fluid"></a>
-                    <div class="text">
-                      <h3><a href="detail.php">White Blouse Versace</a></h3>
-                      <p class="price"> 
-                        <del></del>$143.00
-                      </p>
-                      <p class="buttons"><a href="detail.php" class="btn btn-outline-secondary">View detail</a><a href="basket.php" class="btn btn-primary"><i class="fa fa-shopping-cart"></i>Add to cart</a></p>
-                    </div>
-                    <!-- /.text-->
-                    <div class="ribbon new">
-                      <div class="theribbon">NEW</div>
-                      <div class="ribbon-background"></div>
-                    </div>
-                    <!-- /.ribbon-->
-                  </div>
-                  <!-- /.product            -->
-                </div>
-                <div class="col-lg-4 col-md-6">
-                  <div class="product">
+                <div class="col-md-3 col-sm-6">
+                  <div class="product same-height">
                     <div class="flip-container">
                       <div class="flipper">
                         <div class="front"><a href="detail.php"><img src="img/product1.jpg" alt="" class="img-fluid"></a></div>
@@ -271,39 +213,82 @@ include 'header.php'
                       </div>
                     </div><a href="detail.php" class="invisible"><img src="img/product1.jpg" alt="" class="img-fluid"></a>
                     <div class="text">
-                      <h3><a href="detail.php">Fur coat</a></h3>
-                      <p class="price"> 
-                        <del></del>$143.00
-                      </p>
-                      <p class="buttons"><a href="detail.php" class="btn btn-outline-secondary">View detail</a><a href="basket.php" class="btn btn-primary"><i class="fa fa-shopping-cart"></i>Add to cart</a></p>
+                      <h3>Fur coat</h3>
+                      <p class="price">$143</p>
                     </div>
-                    <!-- /.text-->
-                    <div class="ribbon gift">
-                      <div class="theribbon">GIFT</div>
-                      <div class="ribbon-background"></div>
-                    </div>
-                    <!-- /.ribbon-->
                   </div>
-                  <!-- /.product            -->
+                  <!-- /.product-->
                 </div>
-                <!-- /.products-->
+                <div class="col-md-3 col-sm-6">
+                  <div class="product same-height">
+                    <div class="flip-container">
+                      <div class="flipper">
+                        <div class="front"><a href="detail.php"><img src="img/product3.jpg" alt="" class="img-fluid"></a></div>
+                        <div class="back"><a href="detail.php"><img src="img/product3_2.jpg" alt="" class="img-fluid"></a></div>
+                      </div>
+                    </div><a href="detail.php" class="invisible"><img src="img/product3.jpg" alt="" class="img-fluid"></a>
+                    <div class="text">
+                      <h3>Fur coat</h3>
+                      <p class="price">$143</p>
+                    </div>
+                  </div>
+                  <!-- /.product-->
+                </div>
               </div>
-              <div class="pages">
-                <p class="loadMore"><a href="#" class="btn btn-primary btn-lg"><i class="fa fa-chevron-down"></i> Load more</a></p>
-                <nav aria-label="Page navigation example" class="d-flex justify-content-center">
-                  <ul class="pagination">
-                    <li class="page-item"><a href="#" aria-label="Previous" class="page-link"><span aria-hidden="true">«</span><span class="sr-only">Previous</span></a></li>
-                    <li class="page-item active"><a href="#" class="page-link">1</a></li>
-                    <li class="page-item"><a href="#" class="page-link">2</a></li>
-                    <li class="page-item"><a href="#" class="page-link">3</a></li>
-                    <li class="page-item"><a href="#" class="page-link">4</a></li>
-                    <li class="page-item"><a href="#" class="page-link">5</a></li>
-                    <li class="page-item"><a href="#" aria-label="Next" class="page-link"><span aria-hidden="true">»</span><span class="sr-only">Next</span></a></li>
-                  </ul>
-                </nav>
+              <div class="row same-height-row">
+                <div class="col-md-3 col-sm-6">
+                  <div class="box same-height">
+                    <h3>Products viewed recently</h3>
+                  </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                  <div class="product same-height">
+                    <div class="flip-container">
+                      <div class="flipper">
+                        <div class="front"><a href="detail.php"><img src="img/product2.jpg" alt="" class="img-fluid"></a></div>
+                        <div class="back"><a href="detail.php"><img src="img/product2_2.jpg" alt="" class="img-fluid"></a></div>
+                      </div>
+                    </div><a href="detail.php" class="invisible"><img src="img/product2.jpg" alt="" class="img-fluid"></a>
+                    <div class="text">
+                      <h3>Fur coat</h3>
+                      <p class="price">$143</p>
+                    </div>
+                  </div>
+                  <!-- /.product-->
+                </div>
+                <div class="col-md-3 col-sm-6">
+                  <div class="product same-height">
+                    <div class="flip-container">
+                      <div class="flipper">
+                        <div class="front"><a href="detail.php"><img src="img/product1.jpg" alt="" class="img-fluid"></a></div>
+                        <div class="back"><a href="detail.php"><img src="img/product1_2.jpg" alt="" class="img-fluid"></a></div>
+                      </div>
+                    </div><a href="detail.php" class="invisible"><img src="img/product1.jpg" alt="" class="img-fluid"></a>
+                    <div class="text">
+                      <h3>Fur coat</h3>
+                      <p class="price">$143</p>
+                    </div>
+                  </div>
+                  <!-- /.product-->
+                </div>
+                <div class="col-md-3 col-sm-6">
+                  <div class="product same-height">
+                    <div class="flip-container">
+                      <div class="flipper">
+                        <div class="front"><a href="detail.php"><img src="img/product3.jpg" alt="" class="img-fluid"></a></div>
+                        <div class="back"><a href="detail.php"><img src="img/product3_2.jpg" alt="" class="img-fluid"></a></div>
+                      </div>
+                    </div><a href="detail.php" class="invisible"><img src="img/product3.jpg" alt="" class="img-fluid"></a>
+                    <div class="text">
+                      <h3>Fur coat</h3>
+                      <p class="price">$143</p>
+                    </div>
+                  </div>
+                  <!-- /.product-->
+                </div>
               </div>
             </div>
-            <!-- /.col-lg-9-->
+            <!-- /.col-md-9-->
           </div>
         </div>
       </div>
@@ -312,6 +297,6 @@ include 'header.php'
     *** FOOTER ***
     _________________________________________________________
     -->
-       <?php
+   <?php
 include 'footer.php'
 ?>

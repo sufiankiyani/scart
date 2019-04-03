@@ -4,16 +4,16 @@
           <div class="col-lg-3 col-md-6">
             <h4 class="mb-3">Pages</h4>
             <ul class="list-unstyled">
-              <li><a href="text.html">About us</a></li>
-              <li><a href="text.html">Terms and conditions</a></li>
-              <li><a href="faq.html">FAQ</a></li>
-              <li><a href="contact.html">Contact us</a></li>
+              <li><a href="text.php">About us</a></li>
+              <li><a href="text.php">Terms and conditions</a></li>
+              <li><a href="faq.php">FAQ</a></li>
+              <li><a href="contact.php">Contact us</a></li>
             </ul>
             <hr>
             <h4 class="mb-3">User section</h4>
             <ul class="list-unstyled">
               <li><a href="#" data-toggle="modal" data-target="#login-modal">Login</a></li>
-              <li><a href="register.html">Regiter</a></li>
+              <li><a href="register.php">Regiter</a></li>
             </ul>
           </div>
           <!-- /.col-lg-3-->
@@ -21,22 +21,22 @@
             <h4 class="mb-3">Top categories</h4>
             <h5>Men</h5>
             <ul class="list-unstyled">
-              <li><a href="category.html">T-shirts</a></li>
-              <li><a href="category.html">Shirts</a></li>
-              <li><a href="category.html">Accessories</a></li>
+              <li><a href="category.php">T-shirts</a></li>
+              <li><a href="category.php">Shirts</a></li>
+              <li><a href="category.php">Accessories</a></li>
             </ul>
             <h5>Ladies</h5>
             <ul class="list-unstyled">
-              <li><a href="category.html">T-shirts</a></li>
-              <li><a href="category.html">Skirts</a></li>
-              <li><a href="category.html">Pants</a></li>
-              <li><a href="category.html">Accessories</a></li>
+              <li><a href="category.php">T-shirts</a></li>
+              <li><a href="category.php">Skirts</a></li>
+              <li><a href="category.php">Pants</a></li>
+              <li><a href="category.php">Accessories</a></li>
             </ul>
           </div>
           <!-- /.col-lg-3-->
           <div class="col-lg-3 col-md-6">
             <h4 class="mb-3">Where to find us</h4>
-            <p><strong>Obaju Ltd.</strong><br>13/25 New Avenue<br>New Heaven<br>45Y 73J<br>England<br><strong>Great Britain</strong></p><a href="contact.html">Go to contact page</a>
+            <p><strong>Obaju Ltd.</strong><br>13/25 New Avenue<br>New Heaven<br>45Y 73J<br>England<br><strong>Great Britain</strong></p><a href="contact.php">Go to contact page</a>
             <hr class="d-block d-md-none">
           </div>
           <!-- /.col-lg-3-->
